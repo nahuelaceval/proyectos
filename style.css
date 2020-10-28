@@ -1,0 +1,50 @@
+/* 
+Para empezar, hacé más pequeña la imagen. Con unos 150px debería bastar. */
+img{
+  height:150px;
+}
+
+/*
+La descripción de la receta debería ser más grande. Cambia el font-size.
+*/
+
+.description{
+  font-size: 20px;
+}
+
+/*
+Ahora cambiale el estilo al "cook.time".
+*/
+#cook-time{
+  font-weight: bold;
+}
+/*
+Intentá cambiar los bullet points de la lista para que en su lugar muestre cuadrados.
+*/
+.ingredients li{
+  list-style: square;
+}
+
+/*
+Ahora cambiale el color al tiempo de presentación.
+*/
+
+ p.time{
+  color: gray;
+}
+
+/*
+Vamos a cambiarle también el color al link de abajo.
+*/
+
+.external-link{
+  color: seaGreen;
+}
+
+/*
+Por último cambiemos la fuente por Helvetica.
+*/
+
+h1, h2, p, li{
+  font-family: Helvetica;
+}
